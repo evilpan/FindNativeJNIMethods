@@ -8,6 +8,12 @@ This is a simple command line program that:
 4. Writes the result to a JSON file
 
 
+## Build
+
+```
+make
+```
+
 ## Usage
 
 ```
@@ -20,4 +26,4 @@ Usage: FindNativeJNIMethods.jar <path to apk> <path to output file>
 This program is a simple wrapper around the [JADX][jadx] decompiler that does
 all the heavy lifting.
 
-[jadx]: https://github.com/skylot/jadx`
+[jadx]: https://github.com/skylot/jadx
